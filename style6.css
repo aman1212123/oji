@@ -1,0 +1,46 @@
+
+
+nav{
+  display: flex; background-color: black;
+}
+
+
+
+
+.mini{
+  display: flex;
+} 
+
+nav .mini ul{
+  display: flex; list-style-type: none;
+}
+nav .mini ul a{
+  margin: 25px; text-decoration: none; color: rgb(58, 58, 6);
+
+}
+
+nav .mini ul a:hover{
+  border-radius: 100px;
+}
+
+
+nav .mini ul li{
+  position:relative;
+}
+
+
+nav .mini ul li ul{
+  display: initial; visibility: hidden; position: absolute; top: 100%;
+  right: 0%;
+}
+nav .mini ul li:hover ul{
+visibility: visible;
+}
+
+
+
+
+
+.uber{
+  font-size: 20px; color: beige;
+}
